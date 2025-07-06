@@ -6,12 +6,12 @@ import time
 # 1 - Appium bağlantı ayarları
 options = UiAutomator2Options()
 options.platform_name = "Android"
-options.platform_version = "11"
-options.device_name = "R6CX1017KCN"
+options.platform_version = "11" # Kendi cihazınızın Android versiyonunu girin
+options.device_name = "" # `adb devices` komutu ile alacağınız cihaz ID'sini buraya girin
 options.app_package = "io.appium.android.apis"
 options.app_activity = ".ApiDemos"
 options.no_reset = True
-options.udid = "R6CX1017KCN"
+options.udid = "" # `adb devices` komutu ile alacağınız cihaz ID'sini buraya girin
 
 # 2 - Appium server'a bağlan
 driver = Remote("http://localhost:4723/wd/hub", options=options)

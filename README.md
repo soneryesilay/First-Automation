@@ -62,8 +62,8 @@ Bu projeyi çalıştırabilmek için aşağıdaki araçların ve paketlerin sist
     `First_Automation.py` dosyasını açın ve `UiAutomator2Options` altındaki aşağıdaki ayarları kendi cihazınıza göre güncelleyin:
     ```python
     options.platform_version = "11"  # Kendi cihazınızın Android versiyonu
-    options.device_name = "R6CX1017KCN" # `adb devices` komutu ile alacağınız cihaz ID'si
-    options.udid = "R6CX1017KCN"      # `adb devices` komutu ile alacağınız cihaz ID'si
+    options.device_name = "CIHAZ_ID" # `adb devices` komutu ile alacağınız cihaz ID'si
+    options.udid = "CIHAZ_ID"      # `adb devices` komutu ile alacağınız cihaz ID'si
     ```
 
 2.  **Script'i Çalıştırın:**
