@@ -40,7 +40,6 @@ Bu projeyi çalıştırabilmek için aşağıdaki araçların ve paketlerin sist
     ```
 
 2.  **Python Bağımlılıklarını Yükleyin:**
-    Proje için bir `requirements.txt` dosyası oluşturup bağımlılıkları oradan yüklemek en iyi pratiktir.
     ```bash
     pip install Appium-Python-Client
     ```
